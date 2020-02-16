@@ -1,0 +1,8 @@
+echo "enter num1"
+read num1
+echo "enter num2"
+read num2
+echo "Entered numbers are:" $num1 , $num2
+echo "Addition is:" `expr $num1 + $num2`
+echo "Multiplication is:" `expr $num1 \* $num2`
+
